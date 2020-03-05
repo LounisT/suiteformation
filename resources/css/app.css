@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+nav {
+    width: 100%;
+    height: 10%;
+    line-height: 115px;
+    text-align: center;
+    background-color: white;
+}
+nav ul li{
+    display: inline-block;
+    float: right;
+}
+nav ul a{
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 50px;
+}
+.head{
+    width: 100%;
+    height: 87%;
+    background-color: #70a1ff;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head h1 {
+    font-size: 60px;
+    line-height: 0px;
+}
+
+.logo{
+    width: 170px;
+    height: 70px;
+    float: left;
+    padding: 20px;
+}
+.body{
+    width: 100%;
+    height: 87%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: grey;
+    align-items: center;
+}
+.body white{
+    background-color: white;
+}
+.grey{
+    background-color: #F9F9F9;
+}
+.l{
+    padding: 10px 50px;
+    float: left;
+}
+.r{
+    padding: 10px 50px;
+    float: right;
+}
+.box-center{
+    width: 30%;
+    height: 100%;
+}
+.box-right{
+    width: 50%;
+    float: right!important;
+    background-color: blue
+}
+.box-content{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box-diff{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.box-diff img{
+    float:left;
+}
+.box-diff h2{
+    color: #3f9ae5!important;
+}
+.box-diff p, .box-diff h2{
+    width: 80%;
+    line-height: 35px;
+    margin-top: 35px;
+    margin-left: 100px;
+    text-align: center;
+    color: gray;
+}
+.presentation h1{
+    text-align: center!important;
+    font-size: 40px;
+    color: #555555;
+    padding: 60px 0 0 0;
+    font-weight: bold;
+}
+.presentation h3 {
+    text-align: center;
+    color: #7F7F7F;
+    padding: 0 0 60px 0;
+    font-weight: normal;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66667%;
+}
+.img-comp{
+    width: 277px;
+    height: 277px;
+    margin: 20%;
+}
+
+.staff{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color: #F9F9F9;
+    text-align: center;
+}
+.container-role{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.role img{
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+    vertical-align: middle;
+    padding: 40px;
+}
+.blue{
+    color: #3f9ae5;
+}
+.role p{
+    font-size: 15px;
+    color: dimgrey;
+}
+.booster{
+    width: 100%;
+    height: auto;
+    padding: 50px 0 0;
+    background-color: #0061A3;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booster h1 {
+    margin-top: 0;
+    font-size: 60px;
+}
+.label{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.finition-1{
+    width: 100%;
+    height: auto;
+    padding: 20px 0 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 37px;
+    text-align: center;
+}
+.avis{
+     width: 70%;
+     height: auto;
+     padding: 50px 0;
+     margin: 0 auto;
+     color: grey;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+ }
+.avis h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #383d41;
+}
+.avis h4{
+    color: #383d41;
+}
+.star-rating span:before {
+    content: '\e005\e005\e005\e005\e005';
+    color: #d26e4b;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.finition-1 h1 {
+    text-align: left;
+    margin-right: 60px;
+}
+.turquoise{
+    background-color: #73BCD2;
+}
+.vert{
+    background-color: #6EAF42;
+}
+.orange{
+    background-color: #E14826;
+}
+.orange-2{
+    background-color: #e64a26;
+}
+.vert-2{
+    background-color: #5ABF81;
+}
+.vert-3{
+    background-color: #46BA88;
+}
+.rouge{
+     background-color: #C03E23;
+}
